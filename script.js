@@ -2,7 +2,7 @@ const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 function addTask(){
   if(inputBox.value === ''){
-    alert("해야할 일을 입력해 주세요!");
+    alert("해야할 일을 입력해 주세요");
   }
   else{
     let li = document.createElement("li");
